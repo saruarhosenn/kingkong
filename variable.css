@@ -1,0 +1,72 @@
+:root {
+    /*________ Font Size ________*/
+    --size-13xl: 145px;
+    --size-12xl: 130px;
+    --size-11xl: 74px;
+    --size-10xl: 60px;
+    --size-9xl: 30px;
+    --size-8xl: 28px;
+    --size-7xl: 26px;
+    --size-6xl: 25px;
+    --size-5xl: 22px;
+    --size-4xl: 20px;
+    --size-3xl: 18px;
+    --size-2xl: 17px;
+    --size-xl: 16px;
+    --size-lg: 15px;
+    --size-md: 14px;
+    --size-sm: 12px;
+    /*________ Text Color ________*/
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --text-color3: #F8F9FA;
+    --text-color4: #3D3D3D;
+    --text-color5: #A0A0A0;
+    --text-color6: #343A40;
+    --text-color7: #CFF128;
+    --text-color8: #16412A;
+    --text-color9: #6B8A7B;
+    --text-color10: #215E00;
+    --text-color11: #212529;
+    --text-color12: #282828;
+    --text-color13: #A1A1A1;
+    --text-color14: #343a40;
+    --text-color15: #A2C00D;
+    --text-color16: #969795;
+
+    /*_________ BG Color _________*/
+    --primary-bg: #FFFFFF;
+    --secondary-bg: #17131b;
+    --bg-color3: #E7E7E7;
+    --bg-color4: #cff128;
+    --bg-color5: #C0E40F;
+    --bg-color6: #A5D934;
+    --bg-color7: #91C224;
+    --bg-color8: #000000;
+    --bg-color9: #f2f2f2;
+    --bg-color10: #0a0a0a;
+    --bg-color11: #282828;
+    --bg-color12: #373737;
+    --bg-color13: #f3f3f3;
+    --bg-color14: #F0F9E5;
+  }
+/* Font-size:
+-------------
+145(136)
+130(122)
+74(70)
+60(90)
+30(28)
+28(33)
+26(31*, 39)
+25(25*, 22)
+22(22*, 33)
+20(24)
+18(27*, 21, 36)
+17(25)
+16(24)
+15(14)
+14(16, 21*)
+12(18)
+*/
+

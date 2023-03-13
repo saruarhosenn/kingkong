@@ -1,0 +1,322 @@
+/*---------------------------------------
+Top Shape Divider
+----------------------------------------*/
+.custom-shape-divider-top-1678090271 {
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* overflow: hidden; */
+  line-height: 0;
+  z-index: 9;
+}
+
+.custom-shape-divider-top-1678090271 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 280px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1678090271 .shape-fill {
+  fill: var(--primary-bg);
+}
+
+.custom-shape-divider-top-1678090271 .offering-shape-fill {
+  fill: var(--bg-color13);
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-top-1678090271 svg {
+    width: calc(100% + 1.3px);
+    height: 231px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1678090271 svg {
+    width: calc(100% + 1.3px);
+    height: 100px;
+  }
+}
+
+/*-----------------------------------------
+Bottom Shape Divider
+------------------------------------------*/
+.custom-shape-divider-bottom-1678090372 {
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* overflow: hidden; */
+  line-height: 0;
+  z-index: 9;
+}
+
+.custom-shape-divider-bottom-1678090372 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 280px;
+  transform: rotateX(180deg);
+}
+
+.custom-shape-divider-bottom-1678090372 .shape-fill {
+  fill: var(--primary-bg);
+}
+
+.custom-shape-divider-bottom-1678090372 .platform-shape-fill {
+  fill: var(--bg-color12);
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom-1678090372 svg {
+    width: calc(100% + 1.3px);
+    height: 231px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1678090372 svg {
+    width: calc(100% + 1.3px);
+    height: 100px;
+  }
+}
+
+.stripes,
+.stripes-bottom {
+  width: 100%;
+  height: 280px;
+  height: 31vw;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(10,1fr);
+  transform: skewY(-10deg);
+  transform-origin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/*-----------------------------------------
+hero shape
+------------------------------------------*/
+.hero-section .stripes {
+  top: 30px;
+  left: 0;
+}
+
+.hero-section .stripes span:nth-child(2) {
+  grid-column: 1/span 1;
+  grid-row: 1;
+  border: 2px solid #ecfec6;
+  border-left: none;
+}
+
+.hero-section .stripes span:nth-child(4) {
+  grid-column: span 2;
+  grid-row: 5;
+  background: #6ee268;
+}
+
+.hero-section .stripes span:nth-child(3) {
+  grid-column: 3/span 3;
+  grid-row: 4;
+  background: #ecfec6;
+}
+
+.hero-section .stripes span:nth-child(6) {
+  grid-column: 8/span 3;
+  grid-row: 6;
+  background: #ecfec6;
+}
+
+.hero-section .stripes span:nth-child(5) {
+  grid-column: 11/span 2;
+  grid-row: 5;
+  background: #6ee268;
+}
+
+.hero-section .stripes span:nth-child(7) {
+  grid-column: 10/span 3;
+  grid-row: 9;
+  background: #6ee268;
+}
+
+.hero-section .stripes span:nth-child(8) {
+  grid-column: 11/span 2;
+  grid-row: 10;
+  background: #b4fa88;
+}
+
+/*-----------------------------------------
+date-updated shape
+------------------------------------------*/
+.date-updated-section .stripes {
+  top: 66px;
+  left: 0;
+}
+
+.date-updated-section .stripes span:nth-child(2) {
+  grid-column: 1/span 1;
+  grid-row: 5;
+  border: 2px solid #6ee268;
+  border-left: none;
+}
+
+.date-updated-section .stripes span:nth-child(3) {
+  grid-column: 1/span 3;
+  grid-row: 6;
+  background: #6ee268;
+}
+
+.date-updated-section .stripes span:nth-child(4) {
+  grid-column: 1/span 2;
+  grid-row: 7;
+  background: #ecfec6;
+}
+
+.date-updated-section .stripes span:nth-child(5) {
+  grid-column: 12/span 1;
+  grid-row: 6;
+  background: #ecfec6;
+}
+
+
+/*-----------------------------------------
+offering shape
+------------------------------------------*/
+.offering-section .stripes {
+  top: 65px;
+  left: 0;
+}
+
+.offering-section .stripes span:nth-child(2) {
+  grid-column: 1/span 1;
+  grid-row: 5;
+  border: 2px solid #6ee268;
+  border-left: none;
+}
+
+.offering-section .stripes span:nth-child(4) {
+  grid-column: 1/span 2;
+  grid-row: 7;
+  background: #ecfec6;
+}
+
+.offering-section .stripes span:nth-child(3) {
+  grid-column: 10/span 3;
+  grid-row: 6;
+  border: 2px solid #6ee268;
+  border-right: none;
+}
+
+.offering-section .stripes span:nth-child(5) {
+  grid-column: 11/span 2;
+  grid-row: 7;
+  background: #6ee268;
+}
+
+.offering-section .stripes span:nth-child(6) {
+  grid-column: 12/span 2;
+  grid-row: 8;
+  background: #fff;
+  opacity: .2;
+}
+
+.offering-section .stripes-bottom {
+  left: 0;
+  top: 69px;
+}
+
+.offering-section .stripes-bottom span:nth-child(2) {
+  grid-column: 1/span 1;
+  grid-row: 4;
+  border: 2px solid #6ee268;
+  border-left: none;
+}
+
+.offering-section .stripes-bottom span:nth-child(4) {
+  grid-column: 1/span 2;
+  grid-row: 7;
+  background: #ecfec6;
+}
+
+.offering-section .stripes-bottom span:nth-child(3) {
+  grid-column: 10/span 3;
+  grid-row: 5;
+  background: #6ee268;
+}
+
+.offering-section .stripes-bottom span:nth-child(5) {
+  grid-column: 11/span 2;
+  grid-row: 7;
+  background: #6ee268;
+}
+
+/*-----------------------------------------
+built-scale shape
+------------------------------------------*/
+.built-scale-section .stripes {
+  left: 0;
+  top: 26px;
+}
+
+.built-scale-section .stripes span:nth-child(2) {
+  grid-column: 1/span 1;
+  grid-row: 5;
+  border: 2px solid #6ee268;
+  border-left: none;
+}
+
+.built-scale-section .stripes span:nth-child(3) {
+  grid-column: 12/span 1;
+  grid-row: 5;
+  background: #b4fa88;
+}
+
+.built-scale-section .stripes span:nth-child(4) {
+  grid-column: 11/span 2;
+  grid-row: 6;
+  background: #ecfec6;
+}
+
+/*-----------------------------------------
+brand-experience shape
+------------------------------------------*/
+.brand-experience-section .stripes {
+  top: 69px;
+  left: 0;
+}
+
+.brand-experience-section .stripes span:nth-child(2) {
+  grid-column: 1/span 2;
+  grid-row: 4;
+  background: #b4fa88;
+}
+
+.brand-experience-section .stripes span:nth-child(5) {
+  grid-column: 1/span 1;
+  grid-row: 5;
+  background: #ecfec6;
+}
+
+.brand-experience-section .stripes span:nth-child(3) {
+  grid-column: 11/span 2;
+  grid-row: 5;
+  background: #ecfec6;
+}
+
+.brand-experience-section .stripes span:nth-child(4) {
+  grid-column: 12/span 1;
+  grid-row: 6;
+  border: 2px solid hsla(0,0%,100%,.2);
+  border-right: none;
+}

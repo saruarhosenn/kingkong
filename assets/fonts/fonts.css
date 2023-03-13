@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Futura Condensed BQ 500';
+    src: url('FuturaCondensedBQ-ExtraBold.woff') format('woff'),
+        url('FuturaCondensedBQ-ExtraBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura-Condensed 100';
+    src: url('Futura-Condensed-Bold.woff') format('woff'),
+        url('Futura-Condensed-Bold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Inter 700';
+    src: url('Inter-Bold.woff') format('woff'),
+        url('Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 300';
+    src: url('Inter-Light.woff') format('woff'),
+        url('Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 400';
+    src: url('Inter-Regular.woff') format('woff'),
+        url('Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 600';
+    src: url('Inter-SemiBold.woff') format('woff'),
+        url('Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia 400 italic';
+    src: url('Georgia-Italic.woff') format('woff'),
+        url('Georgia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
